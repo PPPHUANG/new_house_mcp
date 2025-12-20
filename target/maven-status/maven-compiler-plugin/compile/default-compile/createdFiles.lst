@@ -1,0 +1,10 @@
+com\example\housemcp\config\McpConfig.class
+com\example\housemcp\HouseMcpApplication.class
+com\example\housemcp\service\PropertyService.class
+com\example\housemcp\mcp\sdk\McpServer.class
+com\example\housemcp\mcp\sdk\McpTransport.class
+com\example\housemcp\mcp\sdk\McpServerImpl.class
+com\example\housemcp\mcp\sdk\StdioMcpTransport.class
+com\example\housemcp\service\JsonPropertyService$1.class
+com\example\housemcp\service\JsonPropertyService.class
+com\example\housemcp\model\Property.class
