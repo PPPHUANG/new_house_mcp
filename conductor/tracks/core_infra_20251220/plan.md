@@ -8,7 +8,7 @@
 
 ## Phase 2: Tool Implementation
 - [x] Task: Implement the `search_properties` tool (filtering by location, price). [839869b]
-- [ ] Task: Implement the `get_property_details` tool (fetching by ID).
+- [x] Task: Implement the `get_property_details` tool (fetching by ID). [f191adf]
 - [ ] Task: Implement the `buying_guide` resource.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Tool Implementation' (Protocol in workflow.md)
 
