@@ -12,7 +12,7 @@
 - [x] Task: Implement the `buying_guide` resource. [41f5f83]
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Tool Implementation' (Protocol in workflow.md) [c3264c0]
 
-## Phase 3: Verification
+## Phase 3: Verification [checkpoint: 861caa4]
 - [x] Task: Write integration tests using Spring Boot Test to verify tool responses. [c3264c0]
 - [x] Task: Perform manual verification using an MCP inspector or CLI. [50eaa58]
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Verification' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Verification' (Protocol in workflow.md) [861caa4]
