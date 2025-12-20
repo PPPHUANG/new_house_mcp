@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.housemcp.McpServerConfigTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.housemcp.mcp.PropertyResourcesTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -62,9 +62,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="mcpServerBeanExists" classname="com.example.housemcp.McpServerConfigTest" time="0.002">
-    <system-out><![CDATA[2025-12-20T21:10:42.075+08:00  INFO 8112 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.housemcp.McpServerConfigTest]: McpServerConfigTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-12-20T21:10:42.076+08:00  INFO 8112 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.housemcp.HouseMcpApplication for test class com.example.housemcp.McpServerConfigTest
+  <testcase name="testReadBuyingGuideResource" classname="com.example.housemcp.mcp.PropertyResourcesTest" time="0.042">
+    <system-out><![CDATA[2025-12-20T21:10:42.004+08:00  INFO 8112 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.housemcp.mcp.PropertyResourcesTest]: PropertyResourcesTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-12-20T21:10:42.010+08:00  INFO 8112 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.housemcp.HouseMcpApplication for test class com.example.housemcp.mcp.PropertyResourcesTest
 ]]></system-out>
   </testcase>
 </testsuite>
