@@ -1,7 +1,7 @@
 # Plan: Core MCP Infrastructure & Property Search
 
 ## Phase 1: Project Initialization & Infrastructure
-- [ ] Task: Initialize Spring Boot 4 project using Maven (pom.xml, basic structure).
+- [x] Task: Initialize Spring Boot 4 project using Maven (pom.xml, basic structure). [7f36749]
 - [ ] Task: Integrate MCP Java SDK and configure the server for Standard I/O.
 - [ ] Task: Implement the JSON data loading service to read property data from `src/main/resources`.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Initialization & Infrastructure' (Protocol in workflow.md)
