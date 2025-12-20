@@ -8,4 +8,5 @@ public interface McpServer {
     void addTool(Object tool);
     void addResource(Object resource);
     Object invokeTool(String name, Map<String, Object> params);
+    String readResource(String uri);
 }

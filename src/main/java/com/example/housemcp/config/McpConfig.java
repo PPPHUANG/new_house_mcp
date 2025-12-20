@@ -39,6 +39,10 @@ public class McpConfig {
                         server.addTool(bean);
                         break;
                     }
+                    if (method.isAnnotationPresent(McpResource.class)) {
+                        server.addResource(bean);
+                        break;
+                    }
                 }
             }
         };
