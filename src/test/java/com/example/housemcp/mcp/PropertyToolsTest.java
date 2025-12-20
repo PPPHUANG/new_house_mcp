@@ -29,4 +29,15 @@ class PropertyToolsTest {
         assertThat(results).isNotEmpty();
         assertThat(results.get(0).getAddress()).contains("Springfield");
     }
+
+    @Test
+    void testGetPropertyDetailsTool() {
+        Map<String, Object> params = new HashMap<>();
+        params.put("id", "1");
+        
+        Property result = (Property) mcpServer.invokeTool("get_property_details", params);
+        
+        assertThat(result).isNotNull();
+        assertThat(result.getId()).isEqualTo("1");
+    }
 }

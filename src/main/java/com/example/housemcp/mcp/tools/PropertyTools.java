@@ -24,4 +24,9 @@ public class PropertyTools {
                 .filter(p -> maxPrice == null || p.getPrice() <= maxPrice)
                 .collect(Collectors.toList());
     }
+
+    @McpTool(name = "get_property_details", description = "Get detailed information for a specific property by its ID")
+    public Property getPropertyDetails(String id) {
+        return propertyService.getPropertyById(id).orElse(null);
+    }
 }
