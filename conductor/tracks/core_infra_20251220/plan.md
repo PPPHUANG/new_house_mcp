@@ -3,7 +3,7 @@
 ## Phase 1: Project Initialization & Infrastructure
 - [x] Task: Initialize Spring Boot 4 project using Maven (pom.xml, basic structure). [7f36749]
 - [x] Task: Integrate MCP Java SDK and configure the server for Standard I/O. [1bb7253]
-- [ ] Task: Implement the JSON data loading service to read property data from `src/main/resources`.
+- [x] Task: Implement the JSON data loading service to read property data from `src/main/resources`. [61bd3ce]
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Initialization & Infrastructure' (Protocol in workflow.md)
 
 ## Phase 2: Tool Implementation
