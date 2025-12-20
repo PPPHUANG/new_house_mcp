@@ -7,7 +7,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Project Initialization & Infrastructure' (Protocol in workflow.md) [156cd93]
 
 ## Phase 2: Tool Implementation
-- [ ] Task: Implement the `search_properties` tool (filtering by location, price).
+- [x] Task: Implement the `search_properties` tool (filtering by location, price). [839869b]
 - [ ] Task: Implement the `get_property_details` tool (fetching by ID).
 - [ ] Task: Implement the `buying_guide` resource.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Tool Implementation' (Protocol in workflow.md)
