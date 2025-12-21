@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-## [~] Track: Build the core MCP server infrastructure and property search functionality using mock JSON data.
-*Link: [./conductor/tracks/core_infra_20251220/](./conductor/tracks/core_infra_20251220/)*
+## [ ] Track: Refactor the MCP Server to use Spring AI with SSE transport.
+*Link: [./conductor/tracks/spring_ai_mcp_20251220/](./conductor/tracks/spring_ai_mcp_20251220/)*
