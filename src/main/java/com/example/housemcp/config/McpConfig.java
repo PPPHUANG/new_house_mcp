@@ -18,9 +18,7 @@ public class McpConfig {
 
     @Bean
     public McpServer mcpServer(McpTransport transport) {
-        McpServer server = new McpServerImpl(transport);
-        server.start();
-        return server;
+        return new McpServerImpl(transport);
     }
 
     @Bean
@@ -36,15 +34,18 @@ public class McpConfig {
                 }
                 for (Method method : beanClass.getDeclaredMethods()) {
                     if (method.isAnnotationPresent(McpTool.class)) {
+                        System.err.println("Found tool in bean: " + beanName + ", method: " + method.getName());
                         server.addTool(bean);
                         break;
                     }
                     if (method.isAnnotationPresent(McpResource.class)) {
+                        System.err.println("Found resource in bean: " + beanName + ", method: " + method.getName());
                         server.addResource(bean);
                         break;
                     }
                 }
             }
+            server.start();
         };
     }
 }

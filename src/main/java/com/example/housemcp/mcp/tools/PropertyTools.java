@@ -14,6 +14,7 @@ public class PropertyTools {
     private final PropertyService propertyService;
 
     public PropertyTools(PropertyService propertyService) {
+        System.err.println("PropertyTools constructor called!");
         this.propertyService = propertyService;
     }
 
