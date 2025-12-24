@@ -6,11 +6,11 @@
 - [x] Task: Refactor `McpConfig.java` to apply `@ConditionalOnProperty` so it only loads the custom SDK beans when `mcp.transport.mode` is `stdio`.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Configuration and Dependency Setup' (Protocol in workflow.md)
 
-## Phase 2: Spring AI SSE Implementation
-- [ ] Task: Create `SpringAiConfig.java` that loads when `mcp.transport.mode` is `sse`.
-- [ ] Task: Implement Tool registration in `SpringAiConfig` by creating `Function` beans that delegate to `PropertyTools`.
-- [ ] Task: Implement Resource registration in `SpringAiConfig` that delegates to `PropertyResources`.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Spring AI SSE Implementation' (Protocol in workflow.md)
+## Phase 2: Spring AI SSE Implementation [checkpoint: f8baad5]
+- [x] Task: Create `SpringAiConfig.java` that loads when `mcp.transport.mode` is `sse`.
+- [x] Task: Implement Tool registration in `SpringAiConfig` by creating `Function` beans that delegate to `PropertyTools`.
+- [x] Task: Implement Resource registration in `SpringAiConfig` that delegates to `PropertyResources`.
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Spring AI SSE Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Verification and Documentation
 - [ ] Task: Verify the application starts in `stdio` mode and tools function correctly (using existing tests or manual check).
