@@ -1,7 +1,9 @@
 package com.example.housemcp.config;
 
 import com.example.housemcp.mcp.sdk.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.SmartInitializingSingleton;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +11,13 @@ import org.springframework.context.annotation.Configuration;
 import java.lang.reflect.Method;
 
 @Configuration
+@ConditionalOnProperty(name = "mcp.transport.mode", havingValue = "stdio", matchIfMissing = true)
 public class McpConfig {
+
+    @Bean
+    public ObjectMapper objectMapper() {
+        return new ObjectMapper();
+    }
 
     @Bean
     public McpTransport mcpTransport() {
