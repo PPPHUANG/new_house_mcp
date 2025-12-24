@@ -12,8 +12,8 @@
 - [x] Task: Implement Resource registration in `SpringAiConfig` that delegates to `PropertyResources`.
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Spring AI SSE Implementation' (Protocol in workflow.md)
 
-## Phase 3: Verification and Documentation
-- [ ] Task: Verify the application starts in `stdio` mode and tools function correctly (using existing tests or manual check).
-- [ ] Task: Verify the application starts in `sse` mode and exposes the endpoint (manual verification).
-- [ ] Task: Update `README.md` to document how to switch transport modes.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3: Verification and Documentation' (Protocol in workflow.md)
+## Phase 3: Verification and Documentation [checkpoint: 41ec8ed]
+- [x] Task: Verify the application starts in `stdio` mode and tools function correctly (using existing tests or manual check).
+- [x] Task: Verify the application starts in `sse` mode and exposes the endpoint (manual verification).
+- [x] Task: Update `README.md` to document how to switch transport modes.
+- [x] Task: Conductor - User Manual Verification 'Phase 3: Verification and Documentation' (Protocol in workflow.md)
