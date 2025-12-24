@@ -2,12 +2,12 @@
 
 ## 1. Core Framework & Language
 - **Language:** Java 20 (Non-LTS, featuring modern language enhancements)
-- **Framework:** Spring Boot 4 (Note: Leveraging the latest features of the Spring ecosystem)
+- **Framework:** Spring Boot 3.3.0 (Adjusted from 4.x for environment compatibility)
 - **Build Tool:** Maven (standard project structure and dependency management)
 
 ## 2. MCP Integration
-- **SDK:** Official MCP SDK (Java) for implementing server-side tools and resources.
-- **Protocol:** MCP over Standard I/O (default for most AI assistant integrations).
+- **SDK:** Spring AI MCP Server (Official Spring integration) and Custom SDK (legacy stdio support).
+- **Protocol:** Dual Transport support - Stdio (Custom SDK) and SSE (Spring AI).
 
 ## 3. Data Layer (Mock/In-Memory)
 - **Strategy:** JSON-based persistent storage.

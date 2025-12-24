@@ -19,5 +19,5 @@ A specialized Model Context Protocol (MCP) server designed to empower AI assista
 
 ## 4. Technical Approach
 - **Data Management:** Utilizes an in-memory or mock data source (e.g., H2 database) for rapid prototyping and consistent tool responses.
-- **Framework:** Built on Spring Boot 4 to leverage modern Java ecosystem features and robust API management.
+- **Framework:** Built on Spring Boot 3.3.0 with Spring AI integration for robust MCP support.
 - **Recommendation Engine:** Employs simple, filter-based matching to provide predictable and reliable property suggestions.
