@@ -8,7 +8,10 @@ import org.springframework.context.ApplicationContext;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
+@SpringBootTest(properties = {
+    "mcp.transport.mode=stdio",
+    "spring.main.web-application-type=none"
+})
 class McpServerConfigTest {
 
     @Autowired
